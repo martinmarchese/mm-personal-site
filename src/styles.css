@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: 'ProductSans';
+  src: url('assets/fonts/google-sans/ProductSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ProductSans-Bold';
+  src: url('assets/fonts/google-sans/ProductSans-Bold.ttf') format('truetype');
+}
+
+* {font-family: 'ProductSans';}
+
+.spacer {
+  padding-top: 20px;
+  padding-bottom: 10px
+}
